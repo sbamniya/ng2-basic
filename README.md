@@ -1,31 +1,21 @@
-# NewPro
+# NG2 Starting Application
+An Simple Angular 2 Application with Angular CLI and Bootstrap.
+This is just a simple appliction which covers Angular CLI and Bootstrap intergrated as the basic fetaure of Application
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
+To clone this app run the following command:<br/>
+<pre>git clone https://github.com/sbamniya/ng2-basic.git</pre>
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+After cloning the app all you need to install all dependencies, to do this, run the following command:
 
-## Code scaffolding
+<pre>npm install</pre>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+# Run the Application
 
-## Build
+To run this application run the following command:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+<pre>npm start</pre>
+or
+<br/>
+<pre>ng serve</pre>
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Deploying to GitHub Pages
-
-Run `ng github-pages:deploy` to deploy to GitHub Pages.
-
-## Further help
-
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<b>P.S.: </b> You must have angular cli install to run ng serve otherwise it'll return error.
