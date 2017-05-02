@@ -1,0 +1,24 @@
+<div class="well well-sm">
+    <h4><strong>{{this.postDetails.title}}</strong></h4>
+</div>
+<div id="products" class="row">
+    <div class="item col-xs-12 col-lg-12 col-md-12 col-sm-12">
+        <div class="thumbnail">
+            <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+            <div class="caption">
+                <p class="group inner list-group-item-text">
+                    {{this.postDetails.body}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12"><h4>Comments</h4></div>
+    <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12" *ngFor="let comment of postComments">
+        <b>Name: </b><p>{{this.comment.name}}</p>
+        <b>Email: </b><p>{{this.comment.email}}</p>
+        <b>Comment: </b><p>{{this.comment.body}}</p>
+        <hr>
+    </div>
+</div>

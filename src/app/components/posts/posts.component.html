@@ -1,32 +1,15 @@
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-<div>
-<div class="container">
-    <div class="well well-sm">
-        <h4><strong>Posts</strong></h4>
-    </div>
-    <div id="products" class="row">
-        <div class="item col-xs-12 col-lg-4 col-md-6" *ngFor="let post of posts" routerLink="/post/{{this.post.id}}">
-            <div class="thumbnail">
-                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
-                <div class="caption">
-                    <h4 class="group inner list-group-item-heading">
+<div class="well well-sm">
+    <h4><strong>Posts</strong></h4>
+</div>
+<div id="products" class="row">
+    <div class="item col-xs-12 col-lg-4 col-md-6 col-sm-6" *ngFor="let post of posts" routerLink="/post/{{this.post.id}}">
+        <div class="thumbnail">
+            <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+            <div class="caption">
+                <h4 class="group inner list-group-item-heading">
                         {{this.post.title}}</h4>
-                    <p class="group inner list-group-item-text">
-                        {{this.post.body}}</p>
-                </div>
+                <p class="group inner list-group-item-text">
+                    {{this.post.body}}</p>
             </div>
         </div>
     </div>
