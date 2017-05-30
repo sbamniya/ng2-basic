@@ -17,5 +17,5 @@ To run this application run the following command:
 or
 <br/>
 <pre>ng serve</pre>
-
+And open <pre>http://localhost:4200</pre>
 <b>P.S.: </b> You must have angular cli install to run ng serve otherwise it'll return error.
