@@ -8,6 +8,13 @@ To clone this app run the following command:<br/>
 After cloning the app all you need to install all dependencies, to do this, run the following command:
 
 <pre>npm install</pre>
+<h4>And</h4>
+<pre>
+<ol>
+<li>npm install --save resolve-url-loader --dev</li>
+<li>npm i --save-dev bootstrap@next bootstrap-loader tether jquery</li>
+</ol>
+</pre>
 
 # Run the Application
 
