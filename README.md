@@ -7,6 +7,7 @@ To clone this app run the following command:<br/>
 
 After cloning the app all you need to install all dependencies, to do this, run the following command:
 
+<pre>cd ng2-basic</pre>
 <pre>npm install</pre>
 <h4>And</h4>
 <pre>
